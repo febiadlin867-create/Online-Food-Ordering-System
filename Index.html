@@ -1,0 +1,222 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Food Ordering System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header Section -->
+
+<header class="restaurant-header">
+
+    <h1>🍽 Mubarak Restaurant</h1>
+
+    <p>Taste Happiness In Every Bite Fast Delivery </p>
+
+</header>
+
+
+<div class="main-container">
+
+<!-- Food Menu -->
+
+<section class="menu-section">
+
+<h2>🔥 Today's Special Menu</h2>
+
+<div class="menu-grid">
+
+
+<div class="food-card">
+
+<h3>🍔 Burger</h3>
+
+<p>Price : ₹120</p>
+
+<label>
+<input type="checkbox"
+class="item"
+data-name="Burger"
+data-price="120">
+
+Select Item
+</label>
+
+<br><br>
+
+Quantity :
+
+<input type="number"
+class="qty"
+min="1"
+value="1">
+
+</div>
+
+
+<div class="food-card">
+
+<h3>🍕 Pizza</h3>
+
+<p>Price : ₹250</p>
+
+<label>
+<input type="checkbox"
+class="item"
+data-name="Pizza"
+data-price="250">
+
+Select Item
+</label>
+
+<br><br>
+
+Quantity :
+
+<input type="number"
+class="qty"
+min="1"
+value="1">
+
+</div>
+
+
+<div class="food-card">
+
+<h3>🥪 Sandwich</h3>
+
+<p>Price : ₹90</p>
+
+<label>
+<input type="checkbox"
+class="item"
+data-name="Sandwich"
+data-price="90">
+
+Select Item
+</label>
+
+<br><br>
+
+Quantity :
+
+<input type="number"
+class="qty"
+min="1"
+value="1">
+
+</div>
+
+
+<div class="food-card">
+
+<h3>🍟 Fries</h3>
+
+<p>Price : ₹80</p>
+
+<label>
+<input type="checkbox"
+class="item"
+data-name="Fries"
+data-price="80">
+
+Select Item
+</label>
+
+<br><br>
+
+Quantity :
+
+<input type="number"
+class="qty"
+min="1"
+value="1">
+
+</div>
+
+
+<div class="food-card">
+
+<h3>🥤 Juice</h3>
+
+<p>Price : ₹60</p>
+
+<label>
+<input type="checkbox"
+class="item"
+data-name="Juice"
+data-price="60">
+
+Select Item
+</label>
+
+<br><br>
+
+Quantity :
+
+<input type="number"
+class="qty"
+min="1"
+value="1">
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Customer Details -->
+
+<section class="customer-section">
+
+<h2>👤 Customer Details</h2>
+
+<input type="text"
+id="name"
+placeholder="Enter Your Name"><br><br>
+
+<input type="text"
+id="mobile"
+placeholder="Enter Mobile Number"><br><br>
+
+<textarea
+id="address"
+placeholder="Enter Delivery Address">
+</textarea><br><br>
+
+<button onclick="placeOrder()">
+Place Order
+</button>
+
+</section>
+
+
+
+<!-- Order Summary -->
+
+<section class="summary-section">
+
+<h2>🧾 Order Summary</h2>
+
+<div id="summary">
+
+Your order details will appear here...
+
+</div>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
